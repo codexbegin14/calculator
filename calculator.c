@@ -19,6 +19,13 @@ int main()
         result=a-b;
         printf("%d",result);
         break;
+        case '*':
+        result=a*b;
+        printf("%d",result);
+        case '/':
+        result=a/b;
+        printf("%d",result);
+         
         
         default:
     
